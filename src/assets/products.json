@@ -1,0 +1,16 @@
+{
+    "Ærteskud": {
+        "name": "Ærteskud",
+        "cultivation": "2 dage under tryk, 10 dage under lys",
+        "storage": "Opbevares et sted med lys eller kølerum",
+        "taste": "Mild smag af ærter",
+        "usage": "Kan anvendes på toppen af det meste, grundet den milde smag"
+    },
+    "Tallerkensmækker": {
+        "name": "Tallerkensmækker",
+        "cultivation": "4 dage under tryk, 12 dage under lys",
+        "storage": "Opbevares et sted med lys eller kølerum",
+        "taste": "Kraftig smag, næsten som peberrod",
+        "usage": "Passer perfekt til supper, varsom med at anvende for meget, grundet den kraftige smag"
+    }
+}
