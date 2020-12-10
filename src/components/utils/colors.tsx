@@ -1,5 +1,5 @@
 interface color {
-    [key: number ]: string
+	[key: number]: string;
 }
 
 export const black: color = {
@@ -20,4 +20,8 @@ export const grey: color = {
 	100: '#F7F7F7',
 	200: '#d3d3d3',
 	300: '#8A8B8D',
+};
+
+export const green: color = {
+	100: '#84B062',
 };
