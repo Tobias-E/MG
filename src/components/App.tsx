@@ -6,8 +6,7 @@ import { GlobalStyle } from './utils';
 import { theme } from './utils';
 import Header from './organisms/Header';
 import Landing from './organisms/Landing';
-import Products from './organisms/Products';
-import Buy from './organisms/Buy';
+import Products from './organisms/Microgreens';
 import About from './organisms/About';
 // import products from '../assets/products.json'
 
@@ -19,8 +18,7 @@ function App() {
 				<Header />
 				<Switch>
 					<Route exact path='/' component={Landing} />
-					<Route path='/products' component={Products} />
-					<Route path='/buy' component={Buy} />
+					<Route path='/microgreens' component={Products} />
 					<Route path='/about' component={About} />
 				</Switch>
 			</Router>

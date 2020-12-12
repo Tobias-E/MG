@@ -1,31 +1,29 @@
-import styled /* , { keyframes } */ from 'styled-components';
-import { Link, useLocation } from 'react-router-dom';
-import { FaHome, FaEnvira, FaStore, FaInfoCircle } from 'react-icons/fa';
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+import { FaHome, FaEnvira, FaInfoCircle } from 'react-icons/fa';
 
 // Components
 import Logo from '../../assets/mg-logo.svg';
 import { theme } from '../utils';
 
 const Header = () => {
-	const location: String = useLocation().pathname;
 	return (
 		<Container>
 			<LinkS to='/'>
 				<Img src={Logo} alt='logo' />
 			</LinkS>
 			<Nav>
-				<LinkS to='/'>
+				<LinkS exact to='/'>
 					<FaHome />
-					<P> {location === '/' ? 'Home' : ''}</P>
+					<P> Home </P>
 				</LinkS>
-				<LinkS to='/products'>
-					<FaEnvira /> <P>{location === '/products' ? 'Microgreens' : ''}</P>
-				</LinkS>
-				<LinkS to='/buy'>
-					<FaStore /> <P>{location === '/buy' ? 'Buy' : ''}</P>
+				<LinkS to='/microgreens'>
+					<FaEnvira />
+					<P>Microgreens</P>
 				</LinkS>
 				<LinkS to='/about'>
-					<FaInfoCircle /> <P>{location === '/about' ? 'About' : ''}</P>
+					<FaInfoCircle />
+					<P>About</P>
 				</LinkS>
 			</Nav>
 		</Container>
@@ -34,7 +32,7 @@ const Header = () => {
 
 const Container = styled.header`
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	width: 100%;
 	padding: 1rem 2rem;
@@ -68,24 +66,20 @@ const Nav = styled.nav`
 	width: 100%;
 `;
 
-const LinkS = styled(Link)`
+const LinkS = styled(NavLink)`
 	text-decoration: none;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	/* 	color: ${theme.black};
+	color: ${theme.black};
 
-	:focus {
-		color: ${theme.black};
-	} */
+	&.active {
+		color: ${theme.green};
+	}
 `;
 
-/* const animation = keyframes`
-    0% {width: 0}
-    100% {width: 100%}
-`; */
-
 const P = styled.p`
-	margin: 0 0 0 0.2rem;
+	margin: 0 0 0 0rem;
 `;
 
 export default Header;
