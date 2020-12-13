@@ -1,23 +1,19 @@
 import styled from 'styled-components';
 import { theme } from '../utils';
-import logo from '../../assets/logo.svg';
+import productImg from '../../assets/product.png';
 
-const About = () => {
+const Product = () => {
 	return (
 		<Wrapper>
 			<Container>
-				<Img src={logo} alt='Microgreens Danmark logo' />
-				<H2>About</H2>
-				<H5>Hvem er vi?</H5>
-				<P>
-					Virksomhed som producere mikrogrønt til restauranter, catering & hoteller rundt
-					i hele Danmark.
-				</P>
+				<Img src={productImg} />
+				<H2>Hvidløg</H2>
+				<H5>Undertitel</H5>
+				<P>Hello this is the single page!</P>
 			</Container>
 		</Wrapper>
 	);
 };
-
 const Wrapper = styled.main`
 	display: flex;
 	flex-direction: column;
@@ -26,9 +22,9 @@ const Wrapper = styled.main`
 `;
 
 const Container = styled.article`
+	height: 60vh;
 	width: 80vw;
-	margin: 30vw 1rem 20vw 1rem;
-	padding: 50vw 2.1rem 1.6rem 2.1rem;
+	margin: 40vw 1rem 1rem 1rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
 	backdrop-filter: blur(5px);
 	position: relative;
@@ -39,13 +35,13 @@ const Container = styled.article`
 `;
 
 const Img = styled.img`
-	max-width: 60vw;
+	max-width: 80vw;
 	position: absolute;
-	top: -12%;
+	top: -26%;
 `;
 
 const H2 = styled.h2`
-	margin: 0 0 1.8rem 0;
+	margin: 18vh 0 1.8rem 0;
 `;
 
 const H5 = styled.h5`
@@ -56,4 +52,4 @@ const P = styled.p`
 	color: ${theme.black};
 `;
 
-export default About;
+export default Product;

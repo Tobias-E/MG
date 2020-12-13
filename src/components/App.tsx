@@ -8,6 +8,7 @@ import Header from './organisms/Header';
 import Landing from './organisms/Landing';
 import Microgreens from './organisms/Microgreens';
 import About from './organisms/About';
+import Product from './templates/Product';
 import logo from '../assets/mg-logo.svg';
 // import products from '../assets/products.json'
 
@@ -21,6 +22,7 @@ function App() {
 					<Route exact path='/' component={Landing} />
 					<Route path='/microgreens' component={Microgreens} />
 					<Route path='/about' component={About} />
+					<Route path='/microgreen/1' component={Product} />
 				</Switch>
 			</Router>
 			<Background />
@@ -35,8 +37,7 @@ const Wrapper = styled.div`
 `;
 
 const Background = styled.div`
-	height: 13rem;
-	width: 13rem;
+	width: 100vw;
 	position: fixed;
 	z-index: -100;
 	top: 0;
@@ -48,6 +49,7 @@ const Background = styled.div`
 	background-image: url(${logo});
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: ${theme.green};
 `;
 
 export default App;

@@ -37,6 +37,7 @@ const Container = styled.header`
 	width: 100%;
 	padding: 1rem 10vw;
 	position: fixed;
+	z-index: 100;
 	bottom: 0;
 	background-color: ${theme.white};
 	box-shadow: 0 -5px 50px ${theme.grey};

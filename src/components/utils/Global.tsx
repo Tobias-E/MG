@@ -1,6 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'polished';
-import { primaryFont } from './typography';
 
 // Fonts
 import UbuntuBold from '../../assets/fonts/UbuntuBold.ttf';
@@ -22,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 16px;
         box-sizing: border-box;
         scroll-behavior: smooth;
-        /* scroll-padding-top: 120px */
+        scroll-padding-bottom: 67px
     }
     *, *:before, *:after{
         box-sizing: inherit;
