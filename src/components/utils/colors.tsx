@@ -17,11 +17,10 @@ export const blue: color = {
 };
 
 export const grey: color = {
-	100: '#F7F7F7',
-	200: '#d3d3d3',
-	300: '#8A8B8D',
+	100: 'rgb(128, 128, 128, 0.5)',
 };
 
 export const green: color = {
 	100: '#84B062',
+	900: '#012619',
 };

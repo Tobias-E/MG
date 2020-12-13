@@ -35,13 +35,15 @@ const Container = styled.header`
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	padding: 1rem 2rem;
-	border-top: 1px solid ${theme.black};
+	padding: 1rem 10vw;
 	position: fixed;
 	bottom: 0;
+	background-color: ${theme.white};
+	box-shadow: 0 -5px 50px ${theme.grey};
 	@media screen and (min-width: ${theme.tablet}) {
 	}
 	@media screen and (min-width: ${theme.desktop}) {
+		padding: 1rem 20vw;
 	}
 	@media screen and (min-width: ${theme.largeDesktop}) {
 	}
@@ -72,6 +74,7 @@ const LinkS = styled(NavLink)`
 	flex-direction: column;
 	align-items: center;
 	color: ${theme.black};
+	opacity: 0.8;
 
 	&.active {
 		color: ${theme.green};
