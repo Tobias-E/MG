@@ -47,7 +47,7 @@ const Background = styled.div`
 	margin: 0 auto;
 	opacity: 0.5;
 	background-image: url(${logo});
-	background-position: 50% 50vw;
+	background-position: 50% 40vw;
 	background-repeat: no-repeat;
 	background-color: ${theme.green};
 `;
