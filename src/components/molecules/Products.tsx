@@ -46,8 +46,8 @@ const Container = styled(Link)`
 `;
 
 const Img = styled.img`
-	height: 35vw;
-	width: 35vw;
+	height: 34vw;
+	width: 34vw;
 	position: absolute;
 	top: -50%;
 	@media screen and (min-width: ${theme.tablet}) {

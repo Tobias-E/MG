@@ -8,8 +8,8 @@ const NotFound = () => {
 			<Container>
 				<Img src={image} />
 				<H2>
-					We're sorry, we couldn't find the page you were looking for, try some of the
-					links below
+					Sorry, we couldn't find the page you were looking for, try some of the links
+					below
 				</H2>
 			</Container>
 		</Wrapper>

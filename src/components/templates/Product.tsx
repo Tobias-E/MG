@@ -25,7 +25,7 @@ const Container = styled.article`
 	height: 60vh;
 	width: 80vw;
 	margin: 40vw 1rem 1rem 1rem;
-	padding: 30vw 2.1rem 1.6rem 2.1rem;
+	padding: 35vw 2.1rem 1.6rem 2.1rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
 	backdrop-filter: blur(5px);
 	position: relative;
