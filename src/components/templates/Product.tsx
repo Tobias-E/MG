@@ -34,11 +34,12 @@ const Container = styled.article`
 	flex-direction: column;
 	align-items: center;
 	@media screen and (min-width: ${theme.tablet}) {
-		margin: 10rem 1rem 1rem 1rem;
+		margin: 8rem 1rem 1rem 1rem;
 		padding: 5rem 2.1rem 1.6rem 2.1rem;
 		align-items: flex-start;
 	}
 	@media screen and (min-width: ${theme.desktop}) {
+		overflow: hidden;
 		margin: 10rem 1rem 1rem 1rem;
 		padding: 6rem 7.1rem 4.6rem 7.1rem;
 		align-items: flex-start;
@@ -46,12 +47,13 @@ const Container = styled.article`
 `;
 
 const Img = styled.img`
-	max-width: 30rem;
+	max-width: 90vw;
 	position: absolute;
 	top: -26%;
 	background-color: transparent;
 	@media screen and (min-width: ${theme.tablet}) {
-		top: 5%;
+		max-width: 25rem;
+		top: 55%;
 		right: -10%;
 	}
 	@media screen and (min-width: ${theme.desktop}) {
