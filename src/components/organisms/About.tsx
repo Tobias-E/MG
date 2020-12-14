@@ -36,12 +36,28 @@ const Container = styled.article`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	@media screen and (min-width: ${theme.tablet}) {
+		margin: 20vw 1rem 20vw 1rem;
+		padding: 42vw 2.1rem 1.6rem 2.1rem;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		margin: 10rem 1rem 10rem 1rem;
+		padding: 17rem 2.1rem 1.6rem 2.1rem;
+	}
 `;
 
 const Img = styled.img`
 	max-width: 60vw;
 	position: absolute;
 	top: -12%;
+	background-color: transparent;
+	@media screen and (min-width: ${theme.tablet}) {
+		max-width: 50vw;
+		top: -22%;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		max-width: 20rem;
+	}
 `;
 
 const H2 = styled.h2`

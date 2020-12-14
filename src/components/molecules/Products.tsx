@@ -22,6 +22,7 @@ const Container = styled(Link)`
 	height: 35vw;
 	width: 34vw;
 	margin: 20vw 1rem 1rem 1rem;
+	padding: 0.5rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
 	backdrop-filter: blur(5px);
 	position: relative;
@@ -32,6 +33,16 @@ const Container = styled(Link)`
 	justify-content: flex-end;
 	text-decoration: none;
 	color: ${theme.black};
+	@media screen and (min-width: ${theme.tablet}) {
+		margin: 5rem 1rem 1rem 1rem;
+		height: 17vw;
+		width: 17vw;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		width: 12rem;
+		height: 12rem;
+		margin: 8rem 1rem 1rem 1rem;
+	}
 `;
 
 const Img = styled.img`
@@ -39,6 +50,14 @@ const Img = styled.img`
 	width: 35vw;
 	position: absolute;
 	top: -50%;
+	@media screen and (min-width: ${theme.tablet}) {
+		height: 17vw;
+		width: 17vw;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		height: 12rem;
+		width: 12rem;
+	}
 `;
 
 const P = styled.p`

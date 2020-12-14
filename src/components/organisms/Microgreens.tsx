@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// import { theme } from '../utils';
+import { theme } from '../utils';
 
 // Components
 import Products from '../molecules/Products';
@@ -27,16 +27,20 @@ const Microgreens = () => {
 const Wrapper = styled.main`
 	margin-bottom: 67px;
 	padding: 0 6vw 67px 6vw;
-	width: 100vw;
+	/* width: 100vw; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	@media screen and (min-width: ${theme.desktop}) {
+		/* justify-content: center; */
+	}
 `;
 
 const ProductContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 `;
 
 export default Microgreens;

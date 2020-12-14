@@ -31,9 +31,8 @@ function App() {
 }
 
 const Wrapper = styled.div`
-	height: 100vh;
+	/* height: 100vh; */
 	position: relative;
-	/* background-color: ${theme.white}; */
 `;
 
 const Background = styled.div`
@@ -50,6 +49,9 @@ const Background = styled.div`
 	background-position: 50% 40vw;
 	background-repeat: no-repeat;
 	background-color: ${theme.green};
+	@media screen and (min-width: ${theme.tablet}) {
+		background-position: center;
+	}
 `;
 
 export default App;

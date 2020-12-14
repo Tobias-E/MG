@@ -33,12 +33,31 @@ const Container = styled.article`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	@media screen and (min-width: ${theme.tablet}) {
+		margin: 10rem 1rem 1rem 1rem;
+		padding: 5rem 2.1rem 1.6rem 2.1rem;
+		align-items: flex-start;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		margin: 10rem 1rem 1rem 1rem;
+		padding: 6rem 7.1rem 4.6rem 7.1rem;
+		align-items: flex-start;
+	}
 `;
 
 const Img = styled.img`
-	max-width: 80vw;
+	max-width: 30rem;
 	position: absolute;
 	top: -26%;
+	background-color: transparent;
+	@media screen and (min-width: ${theme.tablet}) {
+		top: 5%;
+		right: -10%;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		top: 20%;
+		right: 0%;
+	}
 `;
 
 const H2 = styled.h2`
