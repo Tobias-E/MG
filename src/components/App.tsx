@@ -37,8 +37,6 @@ const Wrapper = styled.div`
 `;
 
 const Background = styled.div`
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
 	width: 100vw;
 	position: fixed;
 	z-index: -100;
@@ -49,7 +47,7 @@ const Background = styled.div`
 	margin: 0 auto;
 	opacity: 0.5;
 	background-image: url(${logo});
-	background-position: center;
+	background-position: 50% 50vw;
 	background-repeat: no-repeat;
 	background-color: ${theme.green};
 `;
