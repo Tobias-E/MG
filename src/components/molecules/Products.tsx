@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { theme } from '../utils';
+
+// Types
 
 type ProductProps = {
 	title: string;
@@ -28,6 +31,7 @@ const Container = styled(Link)`
 	align-items: center;
 	justify-content: flex-end;
 	text-decoration: none;
+	color: ${theme.black};
 `;
 
 const Img = styled.img`

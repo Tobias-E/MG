@@ -6,7 +6,7 @@ const Product = () => {
 	return (
 		<Wrapper>
 			<Container>
-				<Img src={productImg} />
+				<Img src={productImg} alt={`Produkt billede`} />
 				<H2>Hvidløg</H2>
 				<H5>Undertitel</H5>
 				<P>Hello this is the single page!</P>
@@ -25,6 +25,7 @@ const Container = styled.article`
 	height: 60vh;
 	width: 80vw;
 	margin: 40vw 1rem 1rem 1rem;
+	padding: 30vw 2.1rem 1.6rem 2.1rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
 	backdrop-filter: blur(5px);
 	position: relative;
@@ -41,7 +42,7 @@ const Img = styled.img`
 `;
 
 const H2 = styled.h2`
-	margin: 18vh 0 1.8rem 0;
+	margin: 2rem 0 1.8rem 0;
 `;
 
 const H5 = styled.h5`
