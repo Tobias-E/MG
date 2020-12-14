@@ -21,7 +21,7 @@ const Products = ({ title, img }: ProductProps) => {
 const Container = styled(Link)`
 	height: 35vw;
 	width: 34vw;
-	margin: 20vw 1rem 1rem 1rem;
+	margin: 1rem 1rem 1rem 1rem;
 	padding: 0.5rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
 	backdrop-filter: blur(5px);
