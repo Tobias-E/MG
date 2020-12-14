@@ -9,6 +9,7 @@ import Landing from './organisms/Landing';
 import Microgreens from './organisms/Microgreens';
 import About from './organisms/About';
 import Product from './templates/Product';
+import NotFound from './organisms/404';
 import logo from '../assets/mg-logo.svg';
 // import products from '../assets/products.json'
 
@@ -23,6 +24,7 @@ function App() {
 					<Route path='/microgreens' component={Microgreens} />
 					<Route path='/about' component={About} />
 					<Route path='/microgreen/1' component={Product} />
+					<Route component={NotFound} />
 				</Switch>
 			</Router>
 			<Background />
