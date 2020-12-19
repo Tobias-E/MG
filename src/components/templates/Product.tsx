@@ -10,17 +10,9 @@ interface ParamTypes {
 
 const Product = () => {
 	let { id } = useParams<ParamTypes>();
-	console.log(id);
-	/* const test = Object.entries(microgreens);
-	console.log(test); */
-	// const mg = Object.values(microgreens).map((e) => (e.url === id ? e : ''));
-	/* 	for (const key in microgreens) {
-		console.log(`${key}: ${microgreens}`);
-	} */
 
 	let mg = Object.values(microgreens).filter((e) => e.url === id)[0];
 
-	console.log('test::', mg);
 	return (
 		<Wrapper>
 			<Container>
@@ -61,7 +53,6 @@ const Wrapper = styled.main`
 `;
 
 const Container = styled.article`
-	/* 	height: 60vh; */
 	width: 80vw;
 	padding: 35vw 2.1rem 1.6rem 2.1rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
@@ -111,7 +102,6 @@ const H5 = styled.h5`
 `;
 
 const P = styled.p`
-	/* max-width: 40vw; */
 	color: ${theme.black};
 	hyphens: auto;
 `;

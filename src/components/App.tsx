@@ -11,7 +11,6 @@ import About from './organisms/About';
 import Product from './templates/Product';
 import NotFound from './organisms/404';
 import logo from '../assets/mg-logo.svg';
-// import products from '../assets/products.json'
 
 function App() {
 	return (
@@ -33,7 +32,6 @@ function App() {
 }
 
 const Wrapper = styled.div`
-	/* height: 100vh; */
 	position: relative;
 `;
 
