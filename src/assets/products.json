@@ -1,6 +1,6 @@
 {
     "tallerkensmaekker": {
-        "navn": "Tallerkensmækker",
+        "navn": "Tallerken-smækker",
         "url": "tallerkensmaekker",
         "img": "/images/tallerkensmaekker.png",
         "holdbarhed": "7-14",
@@ -17,6 +17,105 @@
         "holdbarhed": "7-14",
         "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
         "smag": "Mild smag af ærter.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Bukkehorn": {
+        "navn": "Bukkehorn",
+        "url": "bukkehorn",
+        "img": "/images/bukkehorn.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Fennikel": {
+        "navn": "Fennikel",
+        "url": "fennikel",
+        "img": "/images/fennikel.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Hvidløg": {
+        "navn": "Hvidløg",
+        "url": "hvidloeg",
+        "img": "/images/hvidlog.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Linse": {
+        "navn": "Linse",
+        "url": "linse",
+        "img": "/images/linse.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Pinkkål": {
+        "navn": "Pinkkål",
+        "url": "pinkkaal",
+        "img": "/images/pinkkaal.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Rosenradise": {
+        "navn": "Rosenradise",
+        "url": "rosenradise",
+        "img": "/images/rosenradise.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Sennep": {
+        "navn": "Sennep",
+        "url": "sennep",
+        "img": "/images/sennep.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Solsikke": {
+        "navn": "Solsikke",
+        "url": "solsikke",
+        "img": "/images/solsikke.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
+    },
+    "Vulcanoradise": {
+        "navn": "Vulcanoradise",
+        "url": "vulcanoradise",
+        "img": "/images/vulcanoradise.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Her er der skruet helt op for bitterheden.",
         "springskammer": "4-6",
         "vækst": "6-8",
         "total": "10-14"

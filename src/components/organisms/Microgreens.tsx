@@ -6,13 +6,28 @@ import microgreens from '../../assets/products.json';
 import Products from '../molecules/Products';
 
 const Microgreens = () => {
+	function compare(a: any, b: any) {
+		if (a.props.url < b.props.url) {
+			return -1;
+		}
+		if (a.props.url > b.props.url) {
+			return 1;
+		}
+		return 0;
+	}
+
+	console.log(
+		Object.values(microgreens)
+			.map((e) => <Products title={e.navn} img={e.img} url={e.url} key={e.url} />)
+			.sort((a, b) => (a.props.url > b.props.url ? 1 : b.props.url > a.props.url ? -1 : 0))
+	);
 	return (
 		<Wrapper>
 			<h2>Microgreens</h2>
 			<ProductContainer>
-				{Object.values(microgreens).map((e) => (
-					<Products title={e.navn} img={e.img} url={e.url} key={e.url} />
-				))}
+				{Object.values(microgreens)
+					.map((e) => <Products title={e.navn} img={e.img} url={e.url} key={e.url} />)
+					.sort(compare)}
 			</ProductContainer>
 		</Wrapper>
 	);
