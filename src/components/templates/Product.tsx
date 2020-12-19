@@ -50,6 +50,12 @@ const Wrapper = styled.main`
 	align-items: center;
 	position: relative;
 	margin: 40vw 1rem 20vw 1rem;
+	@media screen and (min-width: ${theme.tablet}) {
+		margin: 8rem 1rem 1rem 1rem;
+	}
+	@media screen and (min-width: ${theme.desktop}) {
+		margin: 10rem 1rem 1rem 1rem;
+	}
 `;
 
 const Container = styled.article`
@@ -63,12 +69,10 @@ const Container = styled.article`
 	flex-direction: column;
 	align-items: center;
 	@media screen and (min-width: ${theme.tablet}) {
-		margin: 8rem 1rem 1rem 1rem;
 		padding: 5rem 2.1rem 1.6rem 2.1rem;
 		align-items: flex-start;
 	}
 	@media screen and (min-width: ${theme.desktop}) {
-		margin: 10rem 1rem 1rem 1rem;
 		padding: 6rem 7.1rem 4.6rem 7.1rem;
 		align-items: flex-start;
 	}

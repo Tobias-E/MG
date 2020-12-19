@@ -1,4 +1,3 @@
-import { Suspense } from 'react';
 import styled from 'styled-components';
 import { theme } from '../utils';
 
@@ -12,9 +11,7 @@ const Microgreens = () => {
 			<h2>Microgreens</h2>
 			<ProductContainer>
 				{Object.values(microgreens).map((e) => (
-					<Suspense fallback={<h2>Loading...</h2>}>
-						<Products title={e.navn} img={e.img} url={e.url} key={e.url} />
-					</Suspense>
+					<Products title={e.navn} img={e.img} url={e.url} key={e.url} />
 				))}
 			</ProductContainer>
 		</Wrapper>
