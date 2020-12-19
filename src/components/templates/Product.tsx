@@ -28,9 +28,9 @@ const Product = () => {
 				<H2>{mg.navn}</H2>
 				<H5>Holdbarhed</H5>
 				<P>
-					{mg.holdbarhed} dage afhængig af håndtering og forhold. Håndtering: Mikro grønt
-					er et levende produkt ved levering, det vil derfor gro videre til det høstes.
-					Der gælder krav for at kvaliteten skal bibeholdes.
+					{mg.holdbarhed} dage afhængig af håndtering og forhold. Mikro grønt er et
+					levende produkt ved levering, det vil derfor gro videre til det høstes. Der
+					gælder krav for at kvaliteten skal bibeholdes.
 				</P>
 				<H5>Opbevaring</H5>
 				<P>{mg.opbevaring}</P>
@@ -39,9 +39,9 @@ const Product = () => {
 				<H5>Dyrkningsproces</H5>
 				<P>
 					Datoen som findes på mærkatet, er dagen frøene er sat i spiringskammer, som de
-					er i {mg.springskammer} dage. Når frøene er spiret bliver de klar til at komme
+					er {mg.springskammer} dage i. Når frøene er spiret bliver de klar til at komme
 					under lys, hvor står i {mg.vækst} dage. <br />
-					Fra frø til, at du står med produktet i hånden, er der totalt gået {mg.total}.
+					Fra frø, til at du står med produktet i hånden, er der totalt gået {mg.total}.
 				</P>
 				<H5>Generel information</H5>
 				<P>
@@ -57,12 +57,12 @@ const Wrapper = styled.main`
 	flex-direction: column;
 	align-items: center;
 	position: relative;
+	margin: 40vw 1rem 20vw 1rem;
 `;
 
 const Container = styled.article`
 	/* 	height: 60vh; */
 	width: 80vw;
-	margin: 40vw 1rem 20vw 1rem;
 	padding: 35vw 2.1rem 1.6rem 2.1rem;
 	background: linear-gradient(148deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
 	backdrop-filter: blur(5px);
@@ -113,6 +113,7 @@ const H5 = styled.h5`
 const P = styled.p`
 	/* max-width: 40vw; */
 	color: ${theme.black};
+	hyphens: auto;
 `;
 
 export default Product;
