@@ -10,8 +10,8 @@ const About = () => {
 				<H2>About</H2>
 				<H5>Hvem er vi?</H5>
 				<P>
-					Virksomhed som producere mikrogrønt til restauranter, catering & hoteller rundt
-					i hele Danmark.
+					Virksomhed som producere bæredygtig mikrogrønt til restauranter, catering &
+					hoteller rundt i hele Danmark.
 				</P>
 			</Container>
 		</Wrapper>

@@ -23,7 +23,7 @@ function App() {
 					<Route exact path='/' component={Landing} />
 					<Route path='/microgreens' component={Microgreens} />
 					<Route path='/about' component={About} />
-					<Route path='/microgreen/1' component={Product} />
+					<Route path='/microgreen/:id' component={Product} />
 					<Route component={NotFound} />
 				</Switch>
 			</Router>
@@ -48,12 +48,13 @@ const Background = styled.div`
 	margin: 0 auto;
 	opacity: 0.5;
 	background-image: url(${logo});
-	background-position: 50% 40vw;
+	/* background-position: 50% 40vw; */
+	background-position: center;
 	background-repeat: no-repeat;
 	background-color: ${theme.green};
-	@media screen and (min-width: ${theme.tablet}) {
+	/* 	@media screen and (min-width: ${theme.tablet}) {
 		background-position: center;
-	}
+	} */
 `;
 
 export default App;

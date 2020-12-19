@@ -2,15 +2,24 @@ import styled from 'styled-components';
 import { theme } from '../utils';
 
 // Components
+import microgreens from '../../assets/products.json';
 import Products from '../molecules/Products';
-import productImg from '../../assets/product.png';
+// import productImg from '../../assets/product.png';
 
 const Microgreens = () => {
+	/* 	for (const [key, value] of Object.entries(microgreens)) {
+		console.log(`${key}: ${value.navn}`);
+	} */
+
+	// console.log(Object.values(microgreens).map((e) => console.log(e.navn)));
 	return (
 		<Wrapper>
 			<h2>Microgreens</h2>
 			<ProductContainer>
-				<Products title='Hvidløg' img={productImg} />
+				{Object.values(microgreens).map((e) => (
+					<Products title={e.navn} img={e.img} url={e.url} key={e.url} />
+				))}
+				{/* 	<Products title='Hvidløg' img={productImg} />
 				<Products title='Hvidløg' img={productImg} />
 				<Products title='Hvidløg' img={productImg} />
 				<Products title='Tallerken-smækker' img={productImg} />
@@ -18,7 +27,7 @@ const Microgreens = () => {
 				<Products title='Volcano-radise' img={productImg} />
 				<Products title='Volcano-radise' img={productImg} />
 				<Products title='Volcano-radise' img={productImg} />
-				<Products title='Volcano-radise' img={productImg} />
+				<Products title='Volcano-radise' img={productImg} /> */}
 			</ProductContainer>
 		</Wrapper>
 	);

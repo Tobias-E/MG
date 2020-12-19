@@ -1,16 +1,25 @@
 {
-    "Ærteskud": {
-        "name": "Ærteskud",
-        "cultivation": "2 dage under tryk, 10 dage under lys",
-        "storage": "Opbevares et sted med lys eller kølerum",
-        "taste": "Mild smag af ærter",
-        "usage": "Kan anvendes på toppen af det meste, grundet den milde smag"
+    "tallerkensmaekker": {
+        "navn": "Tallerkensmækker",
+        "url": "tallerkensmaekker",
+        "img": "/images/tallerkensmaekker.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Rucola, Peberrod, Karse. Skarp med en mild bitterhed.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
     },
-    "Tallerkensmækker": {
-        "name": "Tallerkensmækker",
-        "cultivation": "4 dage under tryk, 12 dage under lys",
-        "storage": "Opbevares et sted med lys eller kølerum",
-        "taste": "Kraftig smag, næsten som peberrod",
-        "usage": "Passer perfekt til supper, varsom med at anvende for meget, grundet den kraftige smag"
+    "aerteskud": {
+        "navn": "Ærteskud",
+        "url": "aerteskud",
+        "img": "/images/aerteskud.png",
+        "holdbarhed": "7-14",
+        "opbevaring": "Opbevares gerne på køl ved 5-7 grader, på køl vil produktet gå i dvale. Kan også opbevares uden køl, her skal produktet vandes hver 2.-4. dag. Alt efter temperatur, lys mængde og fugtighed vil produktet vokse videre.",
+        "smag": "Rucola, Peberrod, Karse. Skarp med en mild bitterhed.",
+        "springskammer": "4-6",
+        "vækst": "6-8",
+        "total": "10-14"
     }
+
 }

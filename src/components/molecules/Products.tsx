@@ -7,11 +7,12 @@ import { theme } from '../utils';
 type ProductProps = {
 	title: string;
 	img: string;
+	url: string;
 };
 
-const Products = ({ title, img }: ProductProps) => {
+const Products = ({ title, img, url }: ProductProps) => {
 	return (
-		<Container to='/microgreen/1'>
+		<Container to={`/microgreen/${url}`}>
 			<Img src={img} />
 			<P>{title}</P>
 		</Container>
