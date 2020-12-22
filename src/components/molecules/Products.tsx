@@ -12,7 +12,7 @@ type ProductProps = {
 
 const Products = ({ title, img, url }: ProductProps) => {
 	return (
-		<Container to={`/microgreen/${url}`}>
+		<Container to={`/microgreens/${url}`}>
 			<Img src={img} />
 			<P>{title}</P>
 		</Container>

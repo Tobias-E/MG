@@ -8,14 +8,15 @@ const NotFound = () => {
 			<Container>
 				<Img src={image} />
 				<H2>
-					Sorry, we couldn't find the page you were looking for, try some of the links
-					below
+					Desværre, vi kunne ikke finde den side du søgte efter, prøv et af de links som
+					findes herunder.
 				</H2>
 			</Container>
 		</Wrapper>
 	);
 };
 
+// Sorry, we couldn't find the page you were looking for, try some of the links below
 const Wrapper = styled.main`
 	display: flex;
 	flex-direction: column;

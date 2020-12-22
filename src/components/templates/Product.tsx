@@ -33,7 +33,10 @@ const Product = () => {
 					Datoen som findes på mærkatet, er dagen frøene er sat i spiringskammer, som de
 					er {mg.springskammer} dage i. Når frøene er spiret bliver de klar til at komme
 					under lys, hvor står i {mg.vækst} dage. <br />
-					Fra frø, til at du står med produktet i hånden, er der totalt gået {mg.total}.
+					Fra frø, til at du står med produktet i hånden, er der totalt gået {
+						mg.total
+					}{' '}
+					dage.
 				</P>
 				<H5>Generel information</H5>
 				<P>

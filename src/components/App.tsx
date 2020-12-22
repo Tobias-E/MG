@@ -20,9 +20,9 @@ function App() {
 				<Header />
 				<Switch>
 					<Route exact path='/' component={Landing} />
+					<Route path={'/microgreens/:id'} component={Product} />
 					<Route path='/microgreens' component={Microgreens} />
 					<Route path='/about' component={About} />
-					<Route path='/microgreen/:id' component={Product} />
 					<Route component={NotFound} />
 				</Switch>
 			</Router>
